@@ -8,6 +8,7 @@ import { Photo, PhotoService } from '../services/photo.service';
   styleUrls: ['tab2.page.scss']
 })
 export class Tab2Page {
+  pagetitle = 'Photo Galery';
 
   constructor(public photoService: PhotoService, public actionSheetController: ActionSheetController) {}
 
